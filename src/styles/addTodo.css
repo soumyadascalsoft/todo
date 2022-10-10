@@ -1,0 +1,33 @@
+.addTodo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addTodo input {
+    margin: 8px;
+    width: 600px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .addTodo button{
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(207, 156, 44);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    margin: 5px;
+  }
+  .addTodo button:hover{
+    background-color: brown;
+    color: black;
+  }

@@ -1,0 +1,57 @@
+.todoList{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.todoList h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    /* border-bottom: solid 2px red; */
+}
+.todoList h3::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: rgb(240, 17, 17);
+    display: block;
+    margin: auto;
+  }
+  .todo-card{
+    width: 100%;
+    height: auto;
+    color: #276c91;
+    background: #fff;
+    padding: 2px 5px;
+    border-radius: none;
+    margin-top: 3px;
+    margin-right: 6px;
+  }
+  .card-text {
+    margin: auto;
+  }
+  
+.icon-check-todo {
+    background: #276c91;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  .icon-delete-todo {
+    background: red;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+ 

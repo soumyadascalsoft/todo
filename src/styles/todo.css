@@ -1,0 +1,18 @@
+
+.todo-container{
+   /*  width: 70vw;
+    height: 90vh;
+    background: #086191;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8); */
+    color: white;
+
+}
+
+
+.task-board{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
